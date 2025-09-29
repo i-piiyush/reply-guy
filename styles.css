@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: inter;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  
+}
+button {
+  padding: 10px 20px;
+  font-weight: 400;
+  background-color: #272827;
+  outline:none;
+  border: none;
+  margin-top: 5%;
+  
+  
+}
+button a{
+  text-decoration: none;
+  color: white  ;
+}
+h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.wrapper{
+  background-color: rgb(186, 181, 181);
+  width: 300px;
+  padding: 2rem 3rem;
+  
+}
+
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+
+  padding: 5% 0;
+  font-size: medium;
+  opacity: 70%;
+ 
+}
+
+.progress-bar-bg {
+  width: 100%;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #272827;
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+.target-completed {
+
+  color: green;
+  font-weight: bold;
+}

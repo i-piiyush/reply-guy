@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Reply Guy Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Reply Guy</h2>
+
+      <div class="stat-container" id="likes-container">
+        <div class="label-row">
+          <span>Likes</span>
+          <span id="likes-count">0 / 100</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="likes-bar"></div>
+        </div>
+        <div class="target-completed" id="likes-msg"></div>
+      </div>
+
+      <div class="stat-container" id="posts-container">
+        <div class="label-row">
+          <span>Posts</span>
+          <span id="posts-count">0 / 100</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="posts-bar"></div>
+        </div>
+        <div class="target-completed" id="posts-msg"></div>
+      </div>
+
+      <div>
+        <button><a href="https://github.com/i-piiyush/reply-guy" target="_blank">star my github</a></button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
